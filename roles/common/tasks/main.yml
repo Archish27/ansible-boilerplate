@@ -1,0 +1,7 @@
+---
+# This is common playbook that plays on all nodes
+
+- name: Check connectivity
+  ping:
+    data: alive
+  tags: check
